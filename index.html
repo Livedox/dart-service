@@ -24,7 +24,12 @@
 				<a href="#" class="menu__link">Pricing</a>
 				<a href="#" class="menu__link">Help</a>
 			</div>
-			<div class="top-bar__sign-up"><a href="#" class="">Sign up</a></div>
+			<div class="top-bar__container-right-menu">
+				<div class="top-bar__sign-up"><a href="#" class="">Sign up</a></div>
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>	
 		</div>		
 	</nav>
 	<section class="top-block">
@@ -375,14 +380,13 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 				</p>
 			</div>
-
-			<div class="team__media media">
-				<a href="#"><span class="fab fa-twitter icon-small"></span></a>
-				<a href="#"><span class="fab fa-facebook icon-small"></span></a>
-				<a href="#"><span class="fab fa-linkedin-in icon-small"></span></a>
-				<a href="#"><span class="fab fa-dribbble icon-small"></span></a>
-				<a href="#"><span class="fab fa-behance icon-small"></span></a>
-			</div>
+		</div>
+		<div class="team__media media">
+			<a href="#"><span class="fab fa-twitter icon-small"></span></a>
+			<a href="#"><span class="fab fa-facebook icon-small"></span></a>
+			<a href="#"><span class="fab fa-linkedin-in icon-small"></span></a>
+			<a href="#"><span class="fab fa-dribbble icon-small"></span></a>
+			<a href="#"><span class="fab fa-behance icon-small"></span></a>
 		</div>
 	</section>
 	<section class="contact">
@@ -509,15 +513,13 @@
 		var a = document.querySelectorAll("a");
 		for (var i = 0; i < a.length; i++) {
 			a[i].onclick = function(e) {
-				console.log(1);
 				e.preventDefault();
 				alert("Ссылки не работают");
 			}
 		}
-		var button = document.querySelectorAll("button");
-		for (var i = 0; i < a.length; i++) {
-			button[i].onclick = function(e) {
-				console.log(1);
+		var buttons = document.querySelectorAll("button");
+		for (var i = 0; i < buttons.length; i++) {
+			buttons[i].onclick = function(e) {
 				e.preventDefault();
 				alert("Ссылки не работают");
 			}

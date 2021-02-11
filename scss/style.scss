@@ -4,6 +4,7 @@
 
 body{
 	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
 }
 
 .top-bar{
@@ -15,9 +16,10 @@ body{
 		padding: 0 80px;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		position: relative;
 	}
 	&__sign-up a{
-		font-family: 'Raleway', sans-serif;
 		font-size: 12px;
 		line-height: 25px;
 		font-weight: 400;
@@ -35,12 +37,18 @@ body{
 			color: black;
 		}
 	}
+	&__container-right-menu{
+		display: flex;
+		align-items: center;
+	}
 }
+
+
 .logo{
 	display: flex;
 	color: #ffffff;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	
 	font-size: 15px;
 	line-height: 15px;
 	height: 34px;
@@ -54,7 +62,7 @@ body{
 	}
 }
 .menu{
-	font-family: 'Raleway', sans-serif;
+	
 	font-size: 15px;
 	line-height: 25px;
 	font-weight: 600;
@@ -84,17 +92,17 @@ body{
 		margin-right: 20px;
 	}
 	&__title{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 55px;
-		line-height: 65px;
+		line-height: 1.18;
 		font-weight: 800;
 		text-transform: uppercase;
 		color: #ffffff;
 	}
 	&__subtitle{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 18px;
-		line-height: 35px;
+		line-height: 2;
 		font-weight: 400;
 		color: #ffffff;
 	}
@@ -106,7 +114,7 @@ body{
 			height: 55px;
 			box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
 			border-radius: 5px;
-			font-family: 'Raleway', sans-serif;
+			
 			font-size: 15px;
 			line-height: 1.2;
 			font-weight: 400;
@@ -160,7 +168,7 @@ body{
 		cursor: pointer;
 	}
 	&__video-text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 12px;
 		line-height: 1.2;
 		font-weight: 700;
@@ -185,7 +193,7 @@ body{
 		margin-bottom: 100px;
 	}
 	&__subtitle{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 25px;
 		line-height: 1.2;
 		font-weight: 600;
@@ -204,7 +212,7 @@ body{
 		background-color: #1de9b6;
 		box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
 		border-radius: 5px;
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 1.2;
 		font-weight: 700;
@@ -220,13 +228,13 @@ body{
 }
 
 .title{
-	font-family: 'Raleway', sans-serif;
+	
 	font-size: 45px;
 	line-height: 1.2;
 	font-weight: 600;
 	color: #061e37;
 	&-text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 25px;
 		font-weight: 400;
@@ -239,7 +247,7 @@ body{
 	margin: 0 10px;
 	text-align: center;
 	&__title{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 20px;
 		line-height: 25px;
 		font-weight: 600;
@@ -247,7 +255,7 @@ body{
 		margin: 45px 0 20px 0;
 	}
 	&__title-text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 20px;
 		font-weight: 400;
@@ -286,7 +294,7 @@ body{
 		}
 	}
 	&__text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 20px;
 		line-height: 25px;
 		font-weight: 800;
@@ -340,7 +348,7 @@ body{
 		user-select: none;
 	}
 	&__li-title{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 1.2;
 		font-weight: 700;
@@ -362,7 +370,7 @@ body{
 		padding-left: 25px;
 	}
 	&__li-text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 25px;
 		font-weight: 400;
@@ -397,17 +405,15 @@ body{
 		margin-top: 135px;
 		width: 40%;
 	}
-	&__title{
-		font-family: 'Raleway', sans-serif;
+	&__title{		
 		font-size: 45px;
 		line-height: 1.2;
 		font-weight: 600;
 		color: #ffffff;
 	}
-	&__title-text{
-		font-family: 'Raleway', sans-serif;
+	&__title-text{	
 		font-size: 15px;
-		line-height: 25px;
+		line-height: 1.66;
 		font-weight: 600;
 		color: #ffffff;
 	}
@@ -418,7 +424,7 @@ body{
 		background-color: #061e37;
 		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
 		border-radius: 5px;
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 1.2;
 		font-weight: 700;
@@ -483,14 +489,14 @@ body{
 
 	}
 	&__review-title{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 18px;
 		line-height: 25px;
 		font-weight: 700;
 		color: #061e37;
 	}
 	&__review-text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 25px;
 		font-weight: 400;color: #78909c;
@@ -511,7 +517,7 @@ body{
 		width: 560px;
 	}
 	&__name{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 18px;
 		line-height: 25px;
 		font-weight: 700;
@@ -557,10 +563,15 @@ body{
 	}
 	&__media{
 		margin-top: 30px;
+		justify-content: center;
+		display: flex;
+		margin-bottom: 10px;
 	}
 }
 
 .media{
+	display: flex;
+	align-items: center;
 	a{
 		color: #90a4ae;
 		transition: 0.2s;
@@ -585,7 +596,7 @@ body{
 		width: 560px;
 	}
 	&__title-text{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 25px;
 		font-weight: 400;
@@ -605,7 +616,7 @@ body{
 		height: 10px;
 		border: 1px solid #061e37;
 		border-radius: 5px;
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 16px;
 		line-height: 30px;
 		font-weight: 500;
@@ -618,12 +629,11 @@ body{
 		height: 150px;
 		max-height: 150px;
 		min-height: 150px;
-		min-width: 560px;
 		max-width: 560px;
 		border: 1px solid #061e37;
 		border-radius: 5px;
 		padding: 20px;
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 14px;
 		line-height: 30px;
 		font-weight: 500;
@@ -632,7 +642,7 @@ body{
 		resize: none;
 	}
 	&__newspaper{
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 1.2;
 		font-weight: 500;
@@ -656,7 +666,7 @@ body{
 		background-color: #1de9b6;
 		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
 		border-radius: 5px;
-		font-family: 'Raleway', sans-serif;
+		margin-left: 10px;
 		font-size: 16px;
 		line-height: 30px;
 		font-weight: 500;
@@ -687,7 +697,7 @@ body{
 	}
 	&__policy{
 		opacity: 0.5;
-		font-family: 'Raleway', sans-serif;
+		
 		font-size: 15px;
 		line-height: 25px;
 		font-weight: 400;
@@ -775,6 +785,21 @@ body{
 		}
 	}
 }
+@media screen and (max-width: 700px) {
+	.top-bar__menu{
+		display: flex;
+		position: absolute;
+		z-index: 1;
+		top: 100%;
+		width: calc(100% - 40px);
+		box-sizing: border-box;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		.menu__link{
+			margin-left: 0;
+		}
+	}
+}
 @media screen and (max-width: 660px) {
 	.comment{
 		&__right-block{
@@ -814,5 +839,154 @@ body{
 	}
 	.title-text{
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.advantage{
+		&__title-block{
+			width: 100%;
+			margin-right: 10px;
+			margin-bottom: 50px;
+			margin-left: 10px;
+		}
+	}
+	.contact{
+		&__contact{
+			width: 100%;
+		}
+		&__title-block{
+			width: auto;
+		}
+	}
+	.team__info{
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.footer{
+		&__bottom{
+			flex-direction: column;
+		}
+		&__top{
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+		.media{
+			margin-top: 10px;
+		}
+		.menu__link{
+			margin: 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 550px) {	
+	.advantage{
+		&__content{
+			padding-bottom: 30px;
+		}
+		&__column{
+			width: 45%;
+			margin-bottom: 10px;
+		}
+		&__row{
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__button{
+			margin-top: 40px;
+		}
+	}
+	.comment{
+		&__start{
+			margin-top: 30px;
+		}
+	}
+	.contact{
+		height: auto;
+		padding-bottom: 10px;
+		&__input{
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		&__message{
+			height: auto;
+			min-height: auto;
+			max-height: auto;
+		}
+	}
+	.service{
+		&__li-image{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+@media screen and (max-width: 440px) {	
+	.advantage__column{
+		width: 100%;
+	}
+	.banner__column{
+		width: 100%;
+		flex: 0 0 100%;
+	}
+	.comment__review{
+		margin-top: 15px;		
+	}
+	.comment__review-comment{
+		padding: 15px;
+	}
+	.service__basic-info{
+		margin: 20px 0;
+	}
+	.top-block__right-block{
+		height: 50vw;
+	}
+	.top-block__video-play{
+		width: 40px;
+		height: 40px;
+	}
+	.top-block__title {
+		font-size: 24px;
+	}
+	.top-block__subtitle {
+		font-size: 14px;
+	}
+	.comment{
+		&__title{		
+			font-size: 27px;
+		}
+		&__title-text{	
+			font-size: 13px;
+		}
+	}
+	
+}
+@media screen and (max-width: 400px) {
+	.contact__form{
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 380px) {	
+	.service__li-text{
+		font-size: 12px;
+	}
+	.comment__review-text{
+		font-size: 12px;
+	}
+	.top-bar{
+		top: 15px;
+		&__sign-up{
+			display: none;
+		}	
+	}
+	.top-block__content{
+		padding-top: 95px;
 	}
 }
